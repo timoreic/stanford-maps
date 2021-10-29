@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+#outerSection {
+  position: absolute;
+  overflow: hidden;
+}
+
+#mapSection {
+  position: absolute;
+  overflow: hidden;
+  border: 30px solid black;
+}
+
+#map {
+  position: absolute;
+  left: -653.5px;
+  top: -524.5px;
+}
+
+#controlSection {
+  position: absolute;
+}
+
+#zoomIn {
+  position: absolute;
+  left: 0px;
+  top: 150px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 2px solid black;
+  text-align: center;
+  padding: 3px 0;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px gray;
+  cursor: pointer;
+}
+
+#zoomOut {
+  position: absolute;
+  left: 60px;
+  top: 150px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 2px solid black;
+  text-align: center;
+  padding: 3px 0;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px gray;
+  cursor: pointer;
+}
+
+#up {
+  position: absolute;
+  left: 30px;
+  top: 220px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 2px solid black;
+  text-align: center;
+  padding: 3px 0;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px gray;
+  cursor: pointer;
+}
+
+#right {
+  position: absolute;
+  left: 75px;
+  top: 265px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 2px solid black;
+  text-align: center;
+  padding: 3px 0;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px gray;
+  cursor: pointer;
+}
+
+#down {
+  position: absolute;
+  left: 30px;
+  top: 310px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 2px solid black;
+  text-align: center;
+  padding: 3px 0;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px gray;
+  cursor: pointer;
+}
+
+#left {
+  position: absolute;
+  left: -15px;
+  top: 265px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 2px solid black;
+  text-align: center;
+  padding: 3px 0;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px gray;
+  cursor: pointer;
+}
